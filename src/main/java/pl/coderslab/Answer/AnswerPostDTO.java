@@ -1,4 +1,4 @@
-package pl.coderslab;
+package pl.coderslab.Answer;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

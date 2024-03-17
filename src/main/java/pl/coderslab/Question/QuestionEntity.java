@@ -1,4 +1,4 @@
-package pl.coderslab;
+package pl.coderslab.Question;
 
 import javax.persistence.*;
 import java.util.List;

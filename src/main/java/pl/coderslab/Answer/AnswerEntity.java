@@ -1,4 +1,6 @@
-package pl.coderslab;
+package pl.coderslab.Answer;
+
+import pl.coderslab.Question.QuestionEntity;
 
 import javax.persistence.*;
 

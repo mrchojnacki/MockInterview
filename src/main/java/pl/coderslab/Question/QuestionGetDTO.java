@@ -1,17 +1,19 @@
-package pl.coderslab;
+package pl.coderslab.Question;
+
+import pl.coderslab.Answer.AnswerGetDTO;
 
 import java.util.List;
 import java.util.Map;
 
-public class QuestionDTO {
+public class QuestionGetDTO {
     private Long questionId;
     private String question;
-    private Map<String, String> answersText;
+    private List<AnswerGetDTO> answers;
 
-    public QuestionDTO(Long questionId, String question, Map<String, String> answersText) {
+    public QuestionGetDTO(Long questionId, String question, List<AnswerGetDTO> answers) {
         this.questionId = questionId;
         this.question = question;
-        this.answersText = answersText;
+        this.answers = answers;
     }
 
     public Long getQuestionId() {
@@ -29,12 +31,13 @@ public class QuestionDTO {
     public void setQuestion(String question) {
         this.question = question;
     }
-
-    public Map<String, String> getAnswersText() {
-        return answersText;
+    public List<AnswerGetDTO> getAnswers() {
+        return answers;
     }
 
-    public void setAnswersText(Map<String, String> answersText) {
-        this.answersText = answersText;
+    public void setAnswers(List<AnswerGetDTO> answers) {
+        this.answers = answers;
     }
+
+
 }

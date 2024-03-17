@@ -1,4 +1,4 @@
-package pl.coderslab;
+package pl.coderslab.Question;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -6,7 +6,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 import pl.coderslab.InterviewServiceImpl;
-import pl.coderslab.QuestionFromAPI;
 
 import java.util.List;
 
